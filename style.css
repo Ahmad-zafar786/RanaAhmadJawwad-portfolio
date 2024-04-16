@@ -1,11 +1,13 @@
-@font-face {
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
+/* @font-face {
     font-family: new;
     src: url(/Newsreader-VariableFont_opsz\,wght.ttf);
-}
-@font-face {
+} */
+/* @font-face {
     font-family: gen;
     src: url(/GeneralSans-Variable-4b2539d9.woff2);
-}
+} */
 
 @font-face {
     font-family: gil;
@@ -78,7 +80,7 @@ nav .nav2 h4{
     z-index: 8;
 }
 .heroname h1{
-    font-family: new;
+    font-family: "Newsreader", serif;
     font-size:7vw;
     text-transform: uppercase;
     
