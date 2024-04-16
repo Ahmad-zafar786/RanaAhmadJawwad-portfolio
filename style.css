@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
-
-/* @font-face {
-    font-family: new;
-    src: url(/Newsreader-VariableFont_opsz\,wght.ttf);
-} */
-/* @font-face {
-    font-family: gen;
-    src: url(/GeneralSans-Variable-4b2539d9.woff2);
-} */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
 
 @font-face {
     font-family: gil;
@@ -18,7 +10,7 @@
  Margin:0;
  Padding:0;
  Box-sizing: border-box;
-font-family: gen;
+ font-family: "DM Sans", sans-serif;
 /* border: 1px solid red; */
  }
  *::selection{
