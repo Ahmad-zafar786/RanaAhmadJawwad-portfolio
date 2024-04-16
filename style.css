@@ -6,10 +6,12 @@
     font-family: gen;
     src: url(/GeneralSans-Variable-4b2539d9.woff2);
 }
+
 @font-face {
     font-family: gil;
     src: url(Gilroy-Medium.ttf);
 }
+
 *{ 
  Margin:0;
  Padding:0;
