@@ -57,6 +57,13 @@ nav .nav2{
 }
 nav .nav2 h4{
     font-weight: 450;
+    cursor: pointer;
+}
+nav .nav2 h4:hover{
+     
+     transform: scale(.95);
+     transition: all linear .10s;
+     border-bottom: .2px solid rgba(0, 0, 0, 0.101);
 }
 .hero{
     min-height: 100vh;
@@ -111,6 +118,10 @@ nav .nav2 h4{
 .leftbottom h3{
     font-size: 2vw;
     font-weight: 400;
+}
+.page1bottom a{
+    text-decoration: none;
+    color: black;
 }
 .rightbottom{
     display: flex;
@@ -248,10 +259,16 @@ nav .nav2 h4{
     width: 60vw;
     object-fit: cover;
     object-position: center;
-    z-index: 5;
     margin-bottom: 7vw;
 }
-.pg1 h1{
+.page4 a{
+    text-decoration: none;
+    color: black;
+}
+.page4 a:hover{
+    color: #C4C4C4;
+}
+.pg1 a{
     font-weight: 500;
    font-size: 3vw;
    border: 1px solid black;
@@ -305,7 +322,7 @@ nav .nav2 h4{
     margin-bottom: 7vw;
     /* z-index: 5; */
 }
-.pg2 h1{
+.pg2 a{
     font-size: 2.5vw;
     font-weight: 500;
     border: 1px solid black;
@@ -314,13 +331,89 @@ nav .nav2 h4{
     z-index: 5;
     transition: all .3s ;
  }
- .pg .pg2 h1:hover{
+ .pg .pg2 a:hover{
     background-color: black;
     color: #C4C4C4;
     transition: all .3s ;
+    cursor: none;
  }
- .pg .pg1 h1:hover{
+ .pg .pg1 a:hover{
     background-color: black;
-    color: #C4C4C4;
     transition: all .3s ;
+    cursor: none;
  }
+ .page5{
+     height: 100vh;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 6vw 4vw;
+ }
+ .page5 .pg5right{
+    height: 100vh;
+    width: 40%;
+    /* background-color: red; */
+ }
+ .page5 .pg5left{
+    height: 100vh;
+    width: 60%;
+ }
+ .page5 .pg5head{
+    padding: 2vw 4vw;
+    margin-top: 3vw;
+ }
+ .page5 .pg5head h1{
+   font-size: 2.5vw;
+   letter-spacing: 1.5px;
+   
+ }
+ .page5 .pg5head p{
+    width: 28vw;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.738);
+    margin-top: 12px;
+ }
+ .page5 .pg5form{
+    background-color: #ece6e644;
+    height: 300px;
+    width: 47vw;
+    padding: 2vw 2vw;  
+    border-radius: 6px;
+    margin-left: 4vw;
+ }
+ .page5 .pg5form #name{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    width: 45%;
+    margin: 1vw 1vw 0 0;
+ }
+ .page5 .pg5form #email{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    width: 45%;
+    margin: 1vw 1vw 0 0;
+ }
+ .page5 .pg5form #textbox{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+   height: 150px;
+   margin-top: 10px;
+   width: 40vw;
+ }
+ .page5 .pg5form #btn{
+     margin: 1.4vw 0;
+     border: none;
+    background-color: white;
+    padding: .7vw 1.4vw;
+    border-radius: 30px;
+ }
+.pg5right{
+    padding: 4vw;
+}
+.pg5rdn{
+    display: flex;
+}
