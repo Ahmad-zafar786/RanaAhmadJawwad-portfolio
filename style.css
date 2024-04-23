@@ -388,6 +388,7 @@ nav .nav2 h4:hover{
     border-bottom: 1px solid black;
     width: 45%;
     margin: 1vw 1vw 0 0;
+    outline: none;
  }
  .page5 .pg5form #email{
     border: none;
@@ -395,6 +396,7 @@ nav .nav2 h4:hover{
     border-bottom: 1px solid black;
     width: 45%;
     margin: 1vw 1vw 0 0;
+    outline: none;
  }
  .page5 .pg5form #textbox{
     border: none;
@@ -403,6 +405,7 @@ nav .nav2 h4:hover{
    height: 150px;
    margin-top: 10px;
    width: 40vw;
+   outline: none;
  }
  .page5 .pg5form #btn{
      margin: 1.4vw 0;
