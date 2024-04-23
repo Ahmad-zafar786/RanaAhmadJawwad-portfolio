@@ -211,6 +211,7 @@ nav .nav2 h4:hover{
     /* object-position: center; */
     object-fit: cover;
     border-radius: 6px;
+    height: 39vw;
     
 }
 .about .abouttext{
