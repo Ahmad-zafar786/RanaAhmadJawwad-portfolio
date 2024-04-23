@@ -92,3 +92,15 @@ tl.from('.page2 , .page3',{
         scrub:1
     }
 })
+gsap.from(".page4 h1",{
+    y:30,
+    opacity:0,
+    duration:0.5,
+    scrollTrigger:{
+        trigger:'.page4',
+        scroller:'.main',
+        // markers:true,
+        start:"top 60%",
+        end:"top 10%"
+    }
+})
