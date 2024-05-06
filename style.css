@@ -22,6 +22,19 @@
  Height:100%;
  background-color: #C4C4C4;
  }
+
+.cursor{
+    height: 20px;
+    width: 20px;
+    background-color: #f3ecec;
+    border-radius: 50%;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    
+}
+
+
+
 .page1{
     height: 100vh;
     width: 100%;
@@ -93,7 +106,7 @@ nav .nav2 h4:hover{
     left: 11vw;
 }
 .slide{
-    height: 180px;
+    height: 15vw;
     width: 104vw;
     background-color: #ECE6E6;
     position: absolute;
@@ -155,7 +168,7 @@ nav .nav2 h4:hover{
     height: 100vh;
     width: 100%;
     padding: 3vw 5vw;
-   
+   cursor: none;
 }
 .page2 h2{
     line-height: 7vw;
@@ -212,7 +225,14 @@ nav .nav2 h4:hover{
     object-fit: cover;
     border-radius: 6px;
     height: 39vw;
-    
+    /* -webkit-filter: grayscale(0%); Safari 6.0 - 9.0 */
+    filter: grayscale(70%);
+    transition: all .2s;
+}
+.about img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.03)skew(1.2deg);
+    transition: all .2s;
 }
 .about .abouttext{
     width: 80%;
@@ -281,7 +301,7 @@ nav .nav2 h4:hover{
 .pgimg{
     display: flex;
     width: 90%;
-    top: 34.5%;
+    top: 50.5%;
     gap: 10vw;
     z-index: 2;
     position: absolute;

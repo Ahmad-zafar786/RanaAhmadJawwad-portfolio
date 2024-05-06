@@ -30,6 +30,23 @@ function locoscroll(){
     
 }
 locoscroll();
+
+
+
+// document.querySelector(".ft1 .ftcir").addEventListener("click",()=>{
+
+//     scroll.scrollTo(0)
+// })
+
+document.addEventListener("mousemove",(dets)=>{
+   gsap.to(".cursor",{
+    left:dets.x,
+    top:dets.y,
+    duration:.6
+   })
+
+
+})
 var tl=gsap.timeline()
 tl.from('.hero .slide',{
     height:0,
