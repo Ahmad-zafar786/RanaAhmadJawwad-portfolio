@@ -95,7 +95,7 @@ nav .nav2 h4:hover{
     font-family: "Newsreader", serif;
     font-size:7vw;
     text-transform: uppercase;
-    
+    overflow: hidden;
 }
 .heroname h1:nth-child(1){
     position: relative;
@@ -326,22 +326,22 @@ nav .nav2 h4:hover{
     width: 70%;
     top: 74%;
     gap: 10vw;
+    margin-left: -45px;
     /* z-index: 2; */
     position: absolute;
 }
 .pg2 .pgimg2 img{
-    border-radius: 15px;
+    border-radius: 11px;
     height: 20vw;
-    width: 30vw;
+    width: 34vw;
 }
 .pg2 img{
-    border-radius: 15px;
+    border-radius: 11px;
     object-fit: cover;
     object-position: center;
-    height: 30vw;
-    width: 50vw;
+    height: 28vw;
+    width: 62vw;
     margin-bottom: 7vw;
-    /* z-index: 5; */
 }
 .pg2 a{
     font-size: 2.5vw;
