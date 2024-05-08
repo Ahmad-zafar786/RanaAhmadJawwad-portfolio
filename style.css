@@ -326,7 +326,7 @@ nav .nav2 h4:hover{
     width: 70%;
     top: 74%;
     gap: 10vw;
-    margin-left: -45px;
+    margin-left: -50px;
     /* z-index: 2; */
     position: absolute;
 }
@@ -342,6 +342,17 @@ nav .nav2 h4:hover{
     height: 28vw;
     width: 62vw;
     margin-bottom: 7vw;
+    transition: all .4s;
+}
+.pg2 img:hover{
+    /* z-index: 12; */
+    transform: scale(1.02);
+    transition: all .4s;
+}
+.pg1 img:hover{
+    /* z-index: 12; */
+    transform: scale(1.02);
+    transition: all .43s;
 }
 .pg2 a{
     font-size: 2.5vw;
