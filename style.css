@@ -281,6 +281,7 @@ nav .nav2 h4:hover{
     object-fit: cover;
     object-position: center;
     margin-bottom: 7vw;
+    transition: all .4s;
 }
 .page4 a{
     text-decoration: none;
@@ -352,7 +353,7 @@ nav .nav2 h4:hover{
 .pg1 img:hover{
     /* z-index: 12; */
     transform: scale(1.02);
-    transition: all .43s;
+    transition: all .4s;
 }
 .pg2 a{
     font-size: 2.5vw;
@@ -476,6 +477,10 @@ nav .nav2 h4:hover{
 .pg5right .pg5rdn .rdn2 h6{
     padding-left: 1.3vw;
     font-weight: 450;
+}
+.pg5right .pg5rdn .rdn2 h6 a{
+    text-decoration: none;
+    color: black;
 }
 .pg5right .pg5rdn .rdn1 h6{
       font-size: 1.4vw;
